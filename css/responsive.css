@@ -1,0 +1,15 @@
+@media all and (max-width: 992px) {
+    .tytul {
+        font-size: 40px;
+        flex-basis: 100%;
+        padding: 20px 5px;
+    }
+   
+    .foto img {
+       display: flex;
+       
+    }
+
+   
+   
+}
