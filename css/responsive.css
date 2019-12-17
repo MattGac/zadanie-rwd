@@ -1,63 +1,23 @@
-@media all and (min-width:1170px) {
-   .tytul {
-      position: absolute;
-      top: 50%;
-      color: white;
-      text-align: left;
-      left: 1%;
-      display: table;
-      font-size: 25px;
-   }
-   .foto1 {
-      display: block;
-      
-   }
-   .foto2 {
-      display: none;
-   }
-   .foto3 {
-      display: none;
+@media all and (min-width: 1170px) and (max-width: 2000px) {
+   header {
+       height: 100vh;
    }
 }
-@media (min-width:992px) and (max-width:1170px) {
-   .tytul {
-      position: fixed;
-      top: 100px;
-      color: white;
-      text-align: left;
-      left: 55%;
-      display: table;
-      font-size: 25px;
-   }
-   .foto1 {
-      display: none;
-   }
-   .foto2 {
-      display: block;
-   }
-   .foto3 {
-      display: none;
-   }
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    header {
+        height: 70vh;
+        background-image: url(../img/man-2.jpg);
+        justify-content: flex-end;
+        align-items: baseline;
+    }
 }
-
-
-
 @media all and (max-width: 992px) {
-   
-   
-    .foto1 {
-      display: none;
-      
+    header {
+        height: 50vh;
    }
-  .tytul {
-   position: fixed;
-      right: 30%;
+   .head {
+    color: black;
+    justify-content: center;
+    margin: auto;
+    margin-top: 47vh;
    }
-   .foto2 {
-      display: none;
-   }
-   .foto3 {
-      display: block;
-   }
-
-}
