@@ -1,13 +1,63 @@
+@media all and (min-width:1170px) {
+   .tytul {
+      position: absolute;
+      top: 50%;
+      color: white;
+      text-align: left;
+      left: 1%;
+      display: table;
+      font-size: 25px;
+   }
+   .foto1 {
+      display: block;
+      
+   }
+   .foto2 {
+      display: none;
+   }
+   .foto3 {
+      display: none;
+   }
+}
+@media (min-width:992px) and (max-width:1170px) {
+   .tytul {
+      position: fixed;
+      top: 100px;
+      color: white;
+      text-align: left;
+      left: 55%;
+      display: table;
+      font-size: 25px;
+   }
+   .foto1 {
+      display: none;
+   }
+   .foto2 {
+      display: block;
+   }
+   .foto3 {
+      display: none;
+   }
+}
+
+
+
 @media all and (max-width: 992px) {
-     {
-        font-size: 40px;
-        flex-basis: 100%;
-        padding: 20px 5px;
-    }
    
-    .foto img {
-       display: flex;
-       
-    }
+   
+    .foto1 {
+      display: none;
+      
+   }
+  .tytul {
+   position: fixed;
+      right: 30%;
+   }
+   .foto2 {
+      display: none;
+   }
+   .foto3 {
+      display: block;
+   }
 
 }
